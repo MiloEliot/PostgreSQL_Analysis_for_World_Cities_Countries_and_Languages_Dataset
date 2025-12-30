@@ -16,5 +16,4 @@ The original dataset can be found at: [Kaggle](https://www.kaggle.com/datasets/a
 - `data` - the csv files downloaded from Kaggle
 - `sql` - SQL script used for database construction and exploratory data analysis
 - `outputs` - the generated plots
-
-
+- `Report.md` - the report for this project
