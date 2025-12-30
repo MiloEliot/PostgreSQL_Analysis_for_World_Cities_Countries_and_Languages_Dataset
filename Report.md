@@ -75,7 +75,7 @@ The following plots are generated:
 
 4. Functions for checking the detailed information of a given country
 
-Two additional [functions](SQL_scripts/Functions_for_checking_details.sql) are written. 
+Two additional [functions](SQL_scripts/Functions_for_check_details.sql) are written. 
 
 The first function `check_capital_language()` retrives the capital and the official language of a given country from the database. 
 
