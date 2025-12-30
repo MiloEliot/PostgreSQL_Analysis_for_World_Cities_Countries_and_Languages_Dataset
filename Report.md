@@ -77,7 +77,7 @@ The following plots are generated:
 
 Two additional [functions](SQL_scripts/Functions_for_checking_details.sql) are written. 
 
-The first function `check_capital_language()` retrives the capital and the official language of the given country from the database. 
+The first function `check_capital_language()` retrives the capital and the official language of a given country from the database. 
 
 Example: 
 
@@ -89,7 +89,8 @@ Output:
 |--------------|---------|----------|
 | France       | Paris   | French   |
 
-The other function `check_cities()` retrives the name and populations of cities belonging to the given country and order the cities by the population in descending order.
+
+The other function `check_cities()` retrives the name and populations of cities belonging to a given country and order the cities by the population in the descending order.
 
 Example: 
 `select * from check_cities('France');` 
